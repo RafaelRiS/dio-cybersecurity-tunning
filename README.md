@@ -43,6 +43,29 @@ Contém os conhecimentos fundamentais sobre:
 - fontes de vulnerabilidades;
 - boas práticas de segurança.
 
+## Perguntas e Respostas
+
+#### Agente Especializado
+
+Pergunta:
+
+![Agente_Especializado_em_Cybersecurity](./images/Pergunta%20para%20o%20Agente%20especializado%20em%20Cybersecurity.png)
+
+Resposta:
+
+![Agente_Especializado_em_Cybersecurity](./images/Resposta%20do%20nosso%20Agente%20especializado%20em%20Cybersecurity.png)
+
+
+#### Chatbot Convencional
+
+Mesma Pergunta:
+
+![Chatbot_Convencional](./images/Pergunta%20a%20um%20Chatbot%20Convencional.png)
+
+Resposta:
+
+![Chatbot_Convencional](./images/Resposta%20do%20Chatbot%20Convencional.png)
+
 
 ## Persona
 
