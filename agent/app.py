@@ -1,18 +1,16 @@
-import sqlite3
-import pandas
-from contextlib import closing
+import requests
+from flask import Flask
+import django
+import urllib3
 
+app = Flask(__name__)
 
-def fazer_login(usuario, senha):
-    query = (
-        "SELECT 1 FROM usuarios "
-        "WHERE username = ? AND password = ? "
-        "LIMIT 1"
-    )
+@app.route("/")
+def home():
+    return {
+        "message": "Dependency Guardian Test",
+        "status": "running"
+    }
 
-    with closing(sqlite3.connect("banco_de_dados.db")) as conexao:
-        resultado = conexao.execute(query, (usuario, senha)).fetchone()
-
-    if resultado:
-        return "Acesso Permitido!"
-    return "Acesso Negado."
+if __name__ == "__main__":
+    app.run(debug=False)
