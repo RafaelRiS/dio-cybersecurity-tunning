@@ -1,3 +1,114 @@
+# Dependency Guardian — Documentação
+
+## 1. Especialização do Agente
+
+O agente foi especializado em Segurança de Dependências (Dependency Security), com foco na identificação de bibliotecas vulneráveis e análise de riscos em projetos de software.
+
+A especialização foi escolhida para ajudar estudantes a compreender problemas de segurança relacionados às dependências utilizadas em aplicações.
+
+O agente possui capacidade de:
+
+- identificar dependências e suas versões;
+- compreender vulnerabilidades conhecidas;
+- consultar informações sobre CVEs;
+- analisar riscos de bibliotecas vulneráveis;
+- recomendar versões corrigidas;
+- orientar boas práticas de segurança.
+
+O objetivo é desenvolver o conhecimento do estudante sobre segurança na cadeia de suprimentos de software (Software Supply Chain Security).
+
+
+## 2. Arquivos Criados ou Alterados
+
+Para implementar a especialização, foram criados ou atualizados os seguintes arquivos:
+
+### Skill
+
+##### dependency-guardian
+
+Responsável por orientar o agente na análise de dependências, identificação de vulnerabilidades e recomendação de correções.
+
+
+## Knowledge
+
+#### KNOWLEDGE.md
+
+Contém os conhecimentos fundamentais sobre:
+
+- dependências diretas e transitivas;
+- vulnerabilidades em bibliotecas;
+- CVEs;
+- versões de pacotes;
+- severidade;
+- fontes de vulnerabilidades;
+- boas práticas de segurança.
+
+
+## Persona
+
+#### PERSONA.md
+
+Define a especialização do agente em Segurança de Dependências, orientando sua postura como mentor educacional e analista de segurança.
+
+
+## AGENTS.md
+
+Atualizado para incluir a skill dependency-guardian na lista de habilidades relacionadas à segurança.
+
+Também foram mantidas as instruções para utilização da skill vulnerability-analysis.
+
+
+## 3. Como Executar o Agente no Harness
+
+Para executar o agente, utilize o ambiente Harness configurado no projeto.
+
+Passos:
+
+1. Abra o terminal na pasta do projeto.
+2. Verifique se as dependências e configurações do ambiente estão instaladas.
+3. Inicie o agente utilizando o comando de execução definido pelo Harness.
+4. Interaja com o agente através do ambiente disponibilizado.
+
+Exemplo de solicitação para testar a especialização:
+
+"Analise as dependências deste projeto e identifique possíveis vulnerabilidades."
+
+O agente deverá identificar o contexto, analisar as dependências disponíveis e apresentar os riscos e recomendações.
+
+**Observação:** o comando exato de execução depende da configuração do Harness utilizado no projeto.
+
+
+## 4. Melhoria Escolhida
+
+A melhoria escolhida foi a especialização em análise de dependências vulneráveis.
+
+Essa melhoria permite que o agente vá além de explicações gerais sobre Segurança da Informação, oferecendo orientações específicas sobre bibliotecas, pacotes e vulnerabilidades conhecidas.
+
+Com a skill dependency-guardian, o agente passa a orientar o estudante na identificação de dependências vulneráveis e na busca por versões corrigidas.
+
+A proposta também incentiva práticas importantes, como:
+
+- manter bibliotecas atualizadas;
+- consultar fontes confiáveis de vulnerabilidades;
+- utilizar arquivos de lock;
+- verificar dependências transitivas;
+- testar atualizações antes de aplicá-las em produção.
+
+
+## 5. Resultado Esperado
+
+Com essa especialização, o agente se torna um mentor educacional com foco em Segurança de Dependências.
+
+A implementação permite que estudantes aprendam a identificar riscos em bibliotecas, compreender vulnerabilidades e aplicar boas práticas para desenvolver projetos mais seguros.
+
+
+
+
+---
+
+
+
+
 # 🤖 DIO Agent
 
 > Seu mentor com Inteligência Artificial para aprender mais e melhor na [DIO](https://dio.me).
@@ -140,119 +251,3 @@ Tem uma ideia de skill? Veja [como criar uma skill](skills/README.md) e abra um 
 O DIO Agent foi criado para acompanhar você nos Bootcamps e Formações da DIO. A ideia é simples: aprender na era da IA fica mais fácil quando você tem um mentor disponível a qualquer hora.
 
 Bons estudos, e vem com a gente. 🚀
-
-
-
-
-
-
-
----
-
-
-
-
-
-
-# Dependency Guardian — Documentação
-
-## 1. Especialização do Agente
-
-O agente foi especializado em Segurança de Dependências (Dependency Security), com foco na identificação de bibliotecas vulneráveis e análise de riscos em projetos de software.
-
-A especialização foi escolhida para ajudar estudantes a compreender problemas de segurança relacionados às dependências utilizadas em aplicações.
-
-O agente possui capacidade de:
-
-- identificar dependências e suas versões;
-- compreender vulnerabilidades conhecidas;
-- consultar informações sobre CVEs;
-- analisar riscos de bibliotecas vulneráveis;
-- recomendar versões corrigidas;
-- orientar boas práticas de segurança.
-
-O objetivo é desenvolver o conhecimento do estudante sobre segurança na cadeia de suprimentos de software (Software Supply Chain Security).
-
-
-## 2. Arquivos Criados ou Alterados
-
-Para implementar a especialização, foram criados ou atualizados os seguintes arquivos:
-
-### Skill
-
-##### dependency-guardian
-
-Responsável por orientar o agente na análise de dependências, identificação de vulnerabilidades e recomendação de correções.
-
-
-## Knowledge
-
-#### KNOWLEDGE.md
-
-Contém os conhecimentos fundamentais sobre:
-
-- dependências diretas e transitivas;
-- vulnerabilidades em bibliotecas;
-- CVEs;
-- versões de pacotes;
-- severidade;
-- fontes de vulnerabilidades;
-- boas práticas de segurança.
-
-
-## Persona
-
-#### PERSONA.md
-
-Define a especialização do agente em Segurança de Dependências, orientando sua postura como mentor educacional e analista de segurança.
-
-
-## AGENTS.md
-
-Atualizado para incluir a skill dependency-guardian na lista de habilidades relacionadas à segurança.
-
-Também foram mantidas as instruções para utilização da skill vulnerability-analysis.
-
-
-## 3. Como Executar o Agente no Harness
-
-Para executar o agente, utilize o ambiente Harness configurado no projeto.
-
-Passos:
-
-1. Abra o terminal na pasta do projeto.
-2. Verifique se as dependências e configurações do ambiente estão instaladas.
-3. Inicie o agente utilizando o comando de execução definido pelo Harness.
-4. Interaja com o agente através do ambiente disponibilizado.
-
-Exemplo de solicitação para testar a especialização:
-
-"Analise as dependências deste projeto e identifique possíveis vulnerabilidades."
-
-O agente deverá identificar o contexto, analisar as dependências disponíveis e apresentar os riscos e recomendações.
-
-**Observação:** o comando exato de execução depende da configuração do Harness utilizado no projeto.
-
-
-## 4. Melhoria Escolhida
-
-A melhoria escolhida foi a especialização em análise de dependências vulneráveis.
-
-Essa melhoria permite que o agente vá além de explicações gerais sobre Segurança da Informação, oferecendo orientações específicas sobre bibliotecas, pacotes e vulnerabilidades conhecidas.
-
-Com a skill dependency-guardian, o agente passa a orientar o estudante na identificação de dependências vulneráveis e na busca por versões corrigidas.
-
-A proposta também incentiva práticas importantes, como:
-
-- manter bibliotecas atualizadas;
-- consultar fontes confiáveis de vulnerabilidades;
-- utilizar arquivos de lock;
-- verificar dependências transitivas;
-- testar atualizações antes de aplicá-las em produção.
-
-
-## 5. Resultado Esperado
-
-Com essa especialização, o agente se torna um mentor educacional com foco em Segurança de Dependências.
-
-A implementação permite que estudantes aprendam a identificar riscos em bibliotecas, compreender vulnerabilidades e aplicar boas práticas para desenvolver projetos mais seguros.
